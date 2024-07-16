@@ -41,7 +41,7 @@ public class MudanzasCompartidas {
     }
 
     public static boolean cargarDatos() {
-        String archivo = "C:\\Users\\Asus\\Documents\\Facultad\\11 - Estructuras de Datos (2023)\\TPO Final\\DatosACargar.txt";
+        String archivo = "C:\\Users\\Asus\\Documents\\Facultad\\2do Año\\11 - Estructuras de Datos (2023)\\TPO Final\\DatosACargar.txt";
         String[] datos;
         boolean exito = true;
         inicializarLog();
@@ -1152,7 +1152,7 @@ public class MudanzasCompartidas {
     }
 
     public static void inicializarLog() {
-        String rutaLog = "C:\\Users\\Asus\\Documents\\Facultad\\11 - Estructuras de Datos (2023)\\TPO Final\\log.txt";
+        String rutaLog = "C:\\Users\\Asus\\Documents\\Facultad\\2do Año\\11 - Estructuras de Datos (2023)\\TPO Final\\log.txt";
         try {
             logWriter = new FileWriter(rutaLog, true); // true para permitir agregar registros al archivo existente
             logWriter.write("Inicio del registro: \n");
