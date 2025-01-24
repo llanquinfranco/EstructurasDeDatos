@@ -1,4 +1,4 @@
-package TestsMios;
+package testsMios;
 
 import conjuntistas.HeapMax;
 

@@ -1,6 +1,6 @@
 package lineales.dinamicas;
 
-import TestsMios.Solicitud;
+import testsMios.Solicitud;
 
 public class Lista {
 
